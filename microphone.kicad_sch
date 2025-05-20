@@ -813,6 +813,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:NMA0515SC"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2219,7 +2302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006186ce9b")
-		(property "Reference" "R3"
+		(property "Reference" "R8"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -2272,7 +2355,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "R3")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2353,7 +2436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061871ed5")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 44.45 68.58 90)
 			(effects
 				(font
@@ -2404,7 +2487,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2419,7 +2502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618738f1")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 60.96 34.29 0)
 			(effects
 				(font
@@ -2472,7 +2555,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2487,7 +2570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061873fc9")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 60.96 58.42 0)
 			(effects
 				(font
@@ -2540,7 +2623,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061885bd6")
-		(property "Reference" "TDA1522"
+		(property "Reference" "TDA1"
 			(at 102.7176 59.7916 0)
 			(effects
 				(font
@@ -2626,7 +2709,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "TDA1522")
+					(reference "TDA1")
 					(unit 1)
 				)
 			)
@@ -2641,7 +2724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618991f9")
-		(property "Reference" "R7"
+		(property "Reference" "R2"
 			(at 171.45 30.48 90)
 			(effects
 				(font
@@ -2692,7 +2775,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "R7")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2707,7 +2790,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006189a78b")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 151.511 35.6616 0)
 			(effects
 				(font
@@ -2760,7 +2843,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2775,7 +2858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618cf740")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 137.16 36.83 0)
 			(effects
 				(font
@@ -2828,7 +2911,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2843,7 +2926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618d0f3c")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 151.511 58.5216 0)
 			(effects
 				(font
@@ -2896,7 +2979,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2979,7 +3062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618d36d1")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 163.83 61.214 90)
 			(effects
 				(font
@@ -3030,7 +3113,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618d727f")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 149.86 77.4192 90)
 			(effects
 				(font
@@ -3096,7 +3179,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3111,7 +3194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618e2006")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 248.031 45.8216 0)
 			(effects
 				(font
@@ -3164,7 +3247,7 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3179,7 +3262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000618e2966")
-		(property "Reference" "C6"
+		(property "Reference" "C3"
 			(at 234.061 45.8216 0)
 			(effects
 				(font
@@ -3232,7 +3315,199 @@
 		(instances
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
-					(reference "C6")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 256.54 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "035e6552-5edb-43d7-94bb-1d2d7547f09d")
+		(property "Reference" "H4"
+			(at 259.08 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 259.08 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 260.35 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "333d97fe-900f-4642-a3ae-ced000fe4cdb")
+		(property "Reference" "H2"
+			(at 262.89 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 262.89 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 260.35 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 260.35 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "microphone"
+				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 13.97 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab0219d2-9f47-48a9-bc4d-df59b36be49d")
+		(property "Reference" "H1"
+			(at 16.51 13.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 16.51 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 13.97 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 13.97 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "microphone"
+				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3381,6 +3656,70 @@
 			(project "microphone"
 				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
 					(reference "AUDIO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7a9bb57-ae31-4006-a11f-78ae245df7f6")
+		(property "Reference" "H3"
+			(at 17.78 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 17.78 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "microphone"
+				(path "/cee579ea-0d56-458c-80c4-bef0e1822f0d"
+					(reference "H3")
 					(unit 1)
 				)
 			)
